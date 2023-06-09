@@ -96,6 +96,21 @@ li {
   flex-direction: column;
 }
 
+// ==========SCROLL BAR
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: $scroll_bar_color;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $scroll_thumb_color;
+  border-radius: 2em;
+
+  &:hover {
+    background-color: $scroll_thumb_hover_color;
+  }
+}
+
 // ==========HEADER
 header {
   z-index: 99999;

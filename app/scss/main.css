@@ -135,6 +135,19 @@ li {
   flex-direction: column;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #c5cadf;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #70768a;
+  border-radius: 2em;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #454f6b;
+}
+
 header {
   z-index: 99999;
   width: 100%;
